@@ -49,7 +49,7 @@
 .image {
   filter: blur(20px);
   transform: scale(1.1);
-  animation: blurEffect 5s ease-in-out infinite alternate;
+  animation: 5s ease-in-out infinite alternate;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
-  animation: shadowEffect 5s ease-in-out infinite alternate;
+  animation: 5s ease-in-out infinite alternate;
 }
 
 p {
@@ -65,7 +65,7 @@ p {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
-  animation: shadowEffect 5s ease-in-out infinite alternate;
+  animation: 5s ease-in-out infinite alternate;
 }
 
 @keyframes blurEffect {
